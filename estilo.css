@@ -1,0 +1,214 @@
+@charset "UTF-8";
+
+
+          html {
+                   background-image: url("Imagens/fundo.JPG")
+}
+
+          h1 {
+               font-family: Arial;
+               font-size: 30pt;
+               text-align: center;  
+               color: #FF8C00;          
+}
+
+         h2 {
+               font-family: Arial;
+               font-size: 20pt;
+               text-align: center;  
+               color: #FF8C00;
+}
+
+         h3 {
+			 font-family: Arial;
+			 font-size: 12pt;
+}
+		 
+         p {
+			 font-family: arial;
+			 font-size: 17pt;
+             color: black;
+             text-align: justify;
+}
+
+        div#interface {
+			Margin: 10px auto 0px auto;
+			padding: 40px;
+			position: relative;
+			width: 900px;
+			height: 1000px;
+			background-color: #dddddd;
+}
+	
+
+       li {
+          color: white;
+}
+
+       a {
+           color: black;
+}
+
+       /* Formatação de imagens */
+
+       figure.foto{
+                   box-shadow: 1px 1px 4px black;
+                   width: 450px;
+                   height: 353px;
+                   margin: auto;
+}
+       figure.foto img {
+                  width: 100%;
+                  height: 100%;
+
+}
+
+       figure.sapato{
+                   box-shadow: 1px 1px 4px black;
+                   width: 400px;
+                   height: 209px;
+                   margin: auto;
+				   position: relative;
+				   top: 50px;
+}
+
+       figure.sapato img {
+                  width: 100%;
+                  height: 100%;
+}
+
+       figure.foto-legenda {
+		    box-shadow: 1px 1px 4px black;
+			height: 300px;
+			width: 300px;
+			position: relative;
+			left: 255px;
+}
+
+       figure.foto-legenda img {
+                  width: 100%;
+                  height: 100%;
+}
+
+       figure.foto-legenda figcaption {
+		     opacity: 0;
+		     position: absolute;
+			 top: 0px;
+			 background-color: rgba(0,0,0,.4);
+			 color: white;
+			 width: 100%;
+			 height: 100%;
+			 padding: 10px;
+			 box-sizing: border-box;
+	   }
+	   
+	   figure.foto-legenda:hover figcaption {
+		   opacity: 1;
+	   }
+	   
+	   figure.foto2 {
+		   box-shadow: 1px 1px 4px black;
+		   height: 300px;
+		   width: 300px;
+		   position: relative;
+		   left: 255px;
+	   }
+	   
+	   figure.foto2 img {
+		   width: 100%;
+           height: 100%;
+	   }
+	   
+	   figure.foto3 {
+		   box-shadow: 1px 1px 4px black;
+		   height: 300px;
+		   width: 389px;
+		   position: relative;
+		   left: 220px;
+	   }
+	   
+	   figure.foto3 img {
+		   width: 100%;
+           height: 100%;
+	   }
+       
+	   figure.refil {
+		   box-shadow: 1px 1px 4px black;
+		   height: 230px;
+		   width: 230px;
+		   position: relative;
+		   left: 270px;
+	   }
+	   
+	   figure.refil img {
+		   width: 100%;
+           height: 100%;
+	   }
+	   
+	   figure.refil figcaption {
+		     opacity: 0;
+		     position: absolute;
+			 top: 0px;
+			 background-color: rgba(0,0,0,.4);
+			 color: white;
+			 width: 100%;
+			 height: 100%;
+			 padding: 10px;
+			 box-sizing: border-box;
+	   }
+	   
+	   figure.refil:hover figcaption {
+		   opacity: 1;
+	   }
+	   
+	   figure.garantia {
+		   position: relative;
+		   left: 100px;
+		   top: 50px;
+	   } 
+	   
+	   figure.selo {
+		   position: relative;
+		   left: 500px;
+		   top: -180px;
+	   } 
+	   
+	   
+	   
+	   
+	   
+	  
+        /* Formatação do Menu */
+
+         nav#menu ul {
+                  list-style: none;
+                  text-transform: uppercase;
+                  position: absolute;
+                  top: -20px;
+                  left: 85px;
+}
+
+          nav#menu li {
+                  display: inline-block;
+                  background-color: #FF8C00;
+                  padding: 15px;
+                  margin: -5px;
+}
+ 
+          nav#menu li:hover {
+                 background-color: #606060;
+}          
+
+          nav#menu a {
+                 color: black;
+                 text-decoration: none;
+}
+
+          nav#menu a:hover {
+                 color: white;
+                 text-decoration: underline;
+}
+
+          nav#menu h2 {
+                  display: none;
+}
